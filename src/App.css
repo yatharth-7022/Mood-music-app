@@ -1,3 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.stroke-width-2 {
+  stroke-width: 2;
+}
