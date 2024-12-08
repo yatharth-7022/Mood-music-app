@@ -4,17 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Poppins", "serif"],
-        customHeader: ["Qwigley", "cursive"],
+        custom: ["DM Sans", "sans-serif"],
+      },
+      backgroundImage: {
+        "custom-gradient": `linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(31,31,31,1) 12%, rgba(23,23,23,1) 26%, rgba(22,22,22,1) 33%, rgba(21,21,21,1) 36%, rgba(19,19,19,1) 45%, rgba(18,18,18,1) 55%, rgba(18,18,18,1) 75%, rgba(18,18,18,1) 85%, rgba(18,18,18,1) 100%);`,
       },
       colors: {
-        customGrey: "rgba(36, 36, 36, 1)",
-        navGrey: "rgba(22, 23, 23, 1)",
-        iconsGrey: "rgba(140, 140, 140, 1)",
-        searchGrey: "rgba(84, 84, 84, 1)",
-        genrediv1: "rgba(11, 244, 200, 1)",
-        genrediv2: " rgba(250, 216, 93, 1)",
-        genrediv3: "rgba(242, 160, 255, 1)",
+        navbar: "#000000",
       },
     },
   },

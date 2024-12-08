@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 body {
+  @apply font-custom;
 }
