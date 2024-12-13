@@ -1,5 +1,5 @@
 function Main() {
-  return <div className="text-white">Main content displays here</div>;
+  return;
 }
 
 export default Main;
